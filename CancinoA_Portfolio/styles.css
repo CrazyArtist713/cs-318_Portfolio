@@ -1,0 +1,156 @@
+body{
+    background-color: #007499;
+    margin: 0;
+}
+main{
+    padding-top: 9.2rem;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #62c2df;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+.title{
+    background-color: #daf4fa;
+    display: inline-flex;
+    align-items: center;
+    padding: .5rem 3rem .5rem 2rem ;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+}
+.title img{
+    width: 8rem;
+}
+.title h1{
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 2rem;
+    color: #007499;
+}
+.hamburger{
+    width: 60px;
+    padding: 1rem;
+}
+.hamburger hr{
+    margin: .74rem 0;
+    border: 4px solid #007499;
+    border-radius: 1rem;
+}
+nav{
+    background-color: #bbf2ff;
+    position: fixed;
+    width: 50%;
+    top: 0;
+    align-content: flex-end;
+    border-bottom-left-radius: 3rem;
+}
+nav a{
+    display: block;
+    background-color: #009699;
+    color: #daf4fa;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem 0;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    margin: 2rem;
+    font-family: "bahnschrift", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+nav{
+    right: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav.show{
+    right: 0;
+}
+header nav{
+    transition-property: right;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    top: 9.2rem;
+}
+.angel{
+    margin-bottom: -.5rem;
+}
+.about{
+    background-color: #bbf2ff;
+    margin-top: 0;
+    padding: 4rem;
+}
+.about img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about h2{
+    font-family: 'Bauhaus 93', sans-serif;
+    color: #007499;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.about p{
+    font-family: "bahnschrift", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #009699;
+    font-size: 18px;
+    margin-top: 0;
+}
+.other-info{
+    background-color: #bbf2ff;
+    margin: 3rem;
+    border-radius: 4rem;
+    padding: 2rem;
+}
+.other-info h3{
+    font-family: 'Bauhaus 93', sans-serif;
+    color: #007499;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.other-info ul{
+    font-family: "bahnschrift", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #00cccc;
+    font-size: 18px;
+    margin-top: 0;
+}
+.other-info h4{
+    font-family: "bahnschrift", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #009699;
+    font-size: 18px;
+    margin-top: 0;
+}
+.education ul{
+    list-style: none;
+}
+.gallery{
+    background-color: #88f3ff;
+    display: block;
+    margin: 2rem;
+    border-radius: 2.5rem;
+    width: fit-content;
+    padding: 0 2rem;
+    font-family: 'Bauhaus 93', sans-serif;
+    color: #007499;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}

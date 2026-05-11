@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/bauhaus-93" rel="stylesheet">
+    <script src="scripts.js"></script>
 </head>
 <body>
    <header>
@@ -18,14 +19,19 @@
             <img src="Images/CancinoA_CS-318_Portfolio_logo.svg" alt="Logo of owl and sparkles">
             <h1>Adriana Cancino</h1>
         </div>
-        <nav>
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <nav class="toggle-nav">
             <a href="#about">About</a>
             <a href="#gallery">Gallery</a>
             <a href="#contact">Contact Me!</a>
         </nav>
    </header>
-   <img src="Images/Asset 1.svg" alt="Cropped version of movie poster artwork of demon angel">
     <main>
+        <img src="Images/Asset 1.svg" alt="Cropped version of movie poster artwork of demon angel" class="angel">
         <section class="about" id="about">
             <img src="Images/Asset 3.svg" alt="picture of adriana that has a blue border">
             <div class="text">
@@ -41,7 +47,7 @@
         </section>
         <section class="other-info">
             <h3>Other Info</h3>
-            <div>
+            <div class="education">
                 <h4>Education:</h4>
                 <ul>
                     <li>University of Wisconsin Eau-Claire</li>
@@ -49,14 +55,14 @@
                     <li>Graduating spring 2028</li>
                 </ul>
             </div>
-            <div>
+            <div class="languages">
                 <h4>Languages:</h4>
                 <ul>
                     <li>English</li>
                     <li>Fluent in Spanish</li>
                 </ul>
             </div>
-            <div>
+            <div class="skills">
                 <h4>Skills:</h4>
                 <ul>
                     <li>Adobe Photoshop</li>
@@ -151,19 +157,21 @@
             <h2>Digital Art <span>▶</span></h2>
             <hr>
             <div class="images">
-                <img src="CancinoA_Portfolio/Images/Digital/Adriana Cancino - Micro  Assignment 2 (1).png" alt="">
-                <img src="CancinoA_Portfolio/Images/Digital/Cancino_Adriana_Cereal_[HighRes].jpg" alt="">
-                <img src="CancinoA_Portfolio/Images/Digital/Lanscape project - Adriana.jpg" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="Images/Digital/Adriana_Cancino-MicroAssignment2(1).png" alt="vector self porttrait made of tiny triangle">
+                <img src="Images/Digital/Cancino_Adriana_Cereal_[HighRes].jpg" alt="absurd cereal box design">
+                <img src="Images/Digital/Lanscape project-Adriana.jpg" alt="self portrait photo surounded by a ilver molded frame and flowerscape">
+                <img src="Images/Digital/Movie_Poster_Background_FINAL_20250120145402.jpg" alt="demon angel movie poster with lily main character in middle">
+                <img src="Images/Digital/Untitled18(1).jpg" alt="girl posing for photo with game on in background">
+                <img src="Images/Digital/Untitled22_20260328142409.jpg" alt="Character sheet one with 3 chracters named simon, jack, Nori">
+                <img src="Images/Digital/Untitled23_20260329184636.jpg" alt="Character sheet one with 3 chracters named jayce, louis">
+                <img src="Images/Digital/Untitled23_20260427153520.jpg" alt="girl with blond hair and tanned sking with teal sweater and jeans.">
             </div>
         </section>
     </main>
-   <footer>
-
+   <footer class="contact" id="contact">
+        <div class="email"><h3>Email</h3><a href="mailto:acancino713@outlook.com">acancino713@outlook.com</a></div>
+        <div class="vertical-line"></div>
+        <img src="Images/Insta_Logo_Blue.svg" alt="Instagram">
    </footer> 
 </body>
 </html>
