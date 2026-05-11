@@ -221,6 +221,9 @@ footer a{
     text-decoration: none;
     margin-top: 0;
 }
+.email a:hover{
+    text-decoration: underline;
+}
 footer a, h3{
     padding-right: 2rem;
 }
@@ -269,6 +272,12 @@ span.rotate {
 @media (min-width: 1000px){
     .about{
     display: flex;
+} 
+.about p{
+    font-size: 22px;
+}
+.about h2{
+    font-size: 39px;
 }
 .about img{
     width: 30%;
@@ -279,11 +288,13 @@ span.rotate {
     justify-content: start;
     border-bottom: 2px solid #009699;
     padding: .5rem 15rem 1rem;
+    font-size: 20px;
     }
     .skills, .languages{
     display: inline-block;
     justify-content: center;
     padding: .5rem 8rem;
+    font-size: 20px;
 }
 }
 @media (min-width: 1116px){
